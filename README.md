@@ -1,2 +1,2 @@
 # micronaut-kafka_r2dbc
-A reactive Kotlin microservice built with Micronaut that consumes Kafka messages and stores them in PostgreSQL using R2DBC.
+This project is a lightweight, non-blocking microservice built with Kotlin and Micronaut. It listens to an Apache Kafka topic, deserializes incoming JSON events, and stores them asynchronously in a PostgreSQL database using R2DBC. Designed for local development and architectural comparison against a Spring Boot equivalent, it emphasizes simplicity, performance, and reactive design patterns.
